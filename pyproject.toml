@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pi-quarto-semestre-back-end"
+version = "0.1.0"
+description = ""
+authors = ["do-ald533 <doouglas.aldred533@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.8"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
